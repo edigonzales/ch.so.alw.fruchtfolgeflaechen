@@ -10,5 +10,5 @@ tasks.register('importData', Ili2pgImport) {
     dbschema = "alw_fruchtfolgeflaechen_pub_v1"
     models = "SO_ALW_Fruchtfolgeflaechen_Publikation_20220110"
     dataFile = "ilidata:ch.so.alw.fruchtfolgeflaechen"
-    disableValidation = false
+    disableValidation = true
 }
